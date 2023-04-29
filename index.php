@@ -23,7 +23,7 @@ require './principal/head.php';
         <div class="contenedor">
             <section class="contenido-header">
                 <section class="textos-header">
-                    <h1>¿Qué son las matrices?</h1>
+                    <h1>¿Qué son las MATRICESSSSSSSS?</h1>
                     <p>Una matriz de números es una estructura de datos que se compone de elementos numéricos dispuestos en filas y columnas en forma de tabla rectangular. Cada elemento de la matriz es identificado por su posición, que se indica mediante un par de índices que indican la fila y la columna a la que pertenece.</p>
                     <a style="text-decoration: none;" href="http://cimanet.uoc.edu/cursMates0/IniciacionMatematicas/s5/1_5_2.html">Leer mas</a>
                 </section>
