@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+
+
+    background-image: url('../images/fondo-matriz.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* background-image: url(../images/fondo-menu.jpg); */
+    background-image: url(../images/fondo-matriz.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidebar .img-icono .img-center img {
+    height: 85px;
+    width: 85px;
+    margin-left: 55px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.sidebar li a:hover {
+    background-color: #2934cfbd;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+}
+
+/* css para el icono del menu */
+.content .icono-menu a {
+    text-decoration: none;
+}
+
+.content .icono-menu img {
+    width: 40px;
+    height: 40px;
+}
+
+.content .icono-menu label {
+    margin-left: 5px;
+    font-weight: 600;
+}
+
+/* css para el card */
+.card-operaciones .card {
+    border: 1px solid #1ebefd;
+    /* border-radius: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.card-operaciones .card .header {
+    background-image: linear-gradient(50deg, #c9c2ff 0, #919cff 25%, #3c78f2 50%, #0059e3 75%, #0041d4 100%);}
+
+.card-operaciones .card h2 {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+
+}
+
+/* css para el color del body del card  */
+.card-operaciones .card-body {
+    background-image: radial-gradient(circle at -19.64% 62.28%, #bce5ff 0, #9db9f2 50%, #7e8fb3 100%);
+}
+
+
+.card-operaciones .card-body .linea-horizontal hr {
+    border: 0;
+    height: 6px;
+    background-color: #ccc;
+    background-image: linear-gradient(to right, #ccc, #000, #ccc);
+    border-radius: 5px;
+}
+
+.container-fluid .card-footer .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.content .input-matrices input {
+    margin-top: 3px;
+    border-radius: 15px;
+}
+
+.content .input-matrices .dibujos-matrices input {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+/* CSS para la matriz que se genera cuando se calcula la operacion */
+.content .input-matrices .matriz-generada input {
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.content .input-matrices .dibujos-matrices input {
+    border: 1px solid #a19696;
+}
+
+/* CSS para SELECT de operaciones */
+/* #operacionMatriz {
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 15px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+
+#operacionMatriz option {
+    font-size: 14px;
+}
+
+/* Termina CSS para SELECT de operaciones */
