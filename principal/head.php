@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-J/WvG8z3LxjfoKjBtR9Yt1GWxl2iOgxr0yjFkY9X5D5o5r5/itTXrJbnvQ2Wz/+8NDeZoJz95NnLTrcWtLnlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- links para la fuente del texto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
-    <!-- link para css -->
+    <!-- link para css para los card animados en el index.css -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Librerias para bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
