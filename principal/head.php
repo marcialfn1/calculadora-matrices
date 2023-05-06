@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora de matrices</title>
-    <link rel="stylesheet" href="./assets/css/estilos2.css">
+    <!-- Icono para el proyecto -->
+    <link rel="icon" href="./assets/images/op.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/estilo_index.css">
     <!-- iconos de fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-J/WvG8z3LxjfoKjBtR9Yt1GWxl2iOgxr0yjFkY9X5D5o5r5/itTXrJbnvQ2Wz/+8NDeZoJz95NnLTrcWtLnlQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- links para la fuente del texto -->
