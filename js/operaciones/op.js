@@ -13,7 +13,6 @@ function dibujarInputs() {
     if (numFilas != numFilasB || numColumnas != numColumnasB) {
         swal({
             title: "No se puede crear las matrices porque el número de filas y columnas no coinciden.",
-            // text: "",
             icon: "error",
             button: "Aceptar",
             timer: 3000
@@ -22,7 +21,6 @@ function dibujarInputs() {
     } else if (numFilas == "" & numFilasB == "" & numColumnas == "" & numColumnasB == "") {
         swal({
             title: "Ingrese el N° de filas y columnas para las matrices.",
-            // text: "",
             icon: "info",
             button: "Aceptar",
             timer: 3000
@@ -36,7 +34,7 @@ function dibujarInputs() {
         for (var i = 0; i < numFilas; i++) {
             htmlInputs += "<tr>";
             for (var j = 0; j < numColumnas; j++) {
-                htmlInputs += `<td><input style="width: 50px; height: 40px; border-radius: 8px;" id="input_${i}_${j}"></td>`;
+                htmlInputs += `<td><input style="width: 50px; height: 40px; border-radius: 8px; border-width: 0.5px; border-color: #aaaa" id="input_${i}_${j}"></td>`;
             }
             htmlInputs += "</tr>";
         }
@@ -48,7 +46,7 @@ function dibujarInputs() {
         for (var i = 0; i < numFilasB; i++) {
             htmlInputsB += "<tr>";
             for (var j = 0; j < numColumnasB; j++) {
-                htmlInputsB += `<td><input style="width: 50px; height: 40px; border-radius: 8px;" id="inputb_${i}_${j}"></td>`;
+                htmlInputsB += `<td><input style="width: 50px; height: 40px; border-radius: 8px; border-width: 0.5px; border-color: #aaaa;" id="inputb_${i}_${j}"></td>`;
             }
             htmlInputsB += "</tr>";
         }
